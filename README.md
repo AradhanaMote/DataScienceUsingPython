@@ -12,6 +12,7 @@ In this repository, you will find:
 - Explorations of advanced Python concepts crucial for data science.
 - Practical examples and notebooks using popular libraries for data analysis and visualization.
 - Introductions to key Python frameworks that enable building web-based data apps.
+- **New:** In-depth Exploratory Data Analysis (EDA) and Feature Engineering case studies on real-world datasets.
 
 ---
 
@@ -48,12 +49,33 @@ To build and deploy data-driven applications, this repo introduces:
 
 ---
 
+## 🔎 Exploratory Data Analysis (EDA) & Feature Engineering
+
+**New Additions!**  
+Explore hands-on, practical EDA and feature engineering projects with real datasets:
+
+- ### Wine Quality EDA
+  Understand the distribution, relationships, and key factors influencing wine quality through comprehensive analysis and visualization.
+
+- ### Flight Price EDA & Feature Engineering
+  Dive into flight price prediction by performing deep data exploration and engineering new features that improve predictive modeling.
+
+- ### Google Play Store EDA & Feature Engineering
+  Analyze app data from the Google Play Store, uncovering insights about app categories, user ratings, and developing features for downstream machine learning tasks.
+
+You can find these notebooks in the [`notebooks/`](notebooks/) directory, each thoroughly commented and illustrated with plots and insights.
+
+---
+
 ## 📂 Structure
 
 ```
 /DataScienceUsingPython
 │
-├── notebooks/         # Jupyter notebooks for tutorials and demos
+├── notebooks/         # Jupyter notebooks for tutorials, EDA, and demos
+│   ├── EDA_WineQuality.ipynb
+│   ├── EDA_FlightPrice_FeatureEngg.ipynb
+│   └── EDA_GooglePlaystore_FeatureEngg.ipynb
 ├── src/               # Python scripts and modules
 ├── data/              # Sample datasets
 ├── README.md          # This file
@@ -84,6 +106,7 @@ To build and deploy data-driven applications, this repo introduces:
 - Clear, concise explanations of both Python and data science essentials.
 - Practical code samples you can use and expand upon.
 - A foundation for building projects and preparing for interviews.
+- **Case studies:** Real-world EDA and feature engineering examples to boost your portfolio.
 
 ---
 
